@@ -1,25 +1,55 @@
+/* Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar */
+
 header {
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    position: fixed center;
-    top: 0;
-    z-index: 3;
+    
 }
 
 nav ul {
-    list-style-type: none;
-    border: 5px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    width: 100%;
+    overflow: auto;
     background-color: #464653;
+    border: 5px;
     border-style: solid;
     border-color: #242429;
     border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
+/* The following URL was used to help with the "nav li" element: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
 nav li {
     display: inline-block;
-
+    float: left;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 33.3%;
+    text-align: center;
 }
+
+nav a {
+    text-decoration: none;
+    color: #F3F2F3;
+    padding: 5px 33% 5px 33%;
+}
+
+nav a:hover {
+    background-color: #FDF7FF;
+    text-decoration: none;
+    color: #242429;
+}
+
+.active {
+    background-color: #FF8066;
+}
+
