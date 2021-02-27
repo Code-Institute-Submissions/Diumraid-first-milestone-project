@@ -54,12 +54,6 @@ nav a:hover {
     background-color: #FF8066;
 }
 
-/* The following URL was used to help:  https://www.w3schools.com/html/html_responsive.asp */
-/* @media screen and (max-width: 600px) {
-  div.example {
-    font-size: 50%;
-  }
-}  */
 
 /* ============================================================ Image */
 
@@ -76,7 +70,7 @@ nav a:hover {
 
 /* ============================================================ About Me */
 
-.about-me {
+.about-me-border {
     border-top: 15px;
 }
 
@@ -97,4 +91,14 @@ nav a:hover {
     margin-left: 10%;
     text-align: center;
     width: 20%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #F3F2F3;
+    text
+}
+
+.footer a:hover {
+    color: #FF8066;
 }
