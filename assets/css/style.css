@@ -1,0 +1,25 @@
+header {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: fixed center;
+    top: 0;
+    z-index: 3;
+}
+
+nav ul {
+    list-style-type: none;
+    border: 5px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #464653;
+    border-style: solid;
+    border-color: #242429;
+    border-radius: 5px;
+}
+
+nav li {
+    display: inline-block;
+
+}
