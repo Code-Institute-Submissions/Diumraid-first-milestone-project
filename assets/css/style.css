@@ -24,17 +24,20 @@ nav ul {
     border-color: #242429;
     border-radius: 5px;
     list-style: none;
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
-/* The following URL was used to help with the "nav li" element: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
+/* The following URL's was used to help with the "nav li" element: 
+https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp 
+https://stackoverflow.com/questions/5232310/htmlcss-how-to-force-div-contents-to-stay-in-one-line*/
 nav li {
-    display: inline-block;
     float: left;
     padding: 10px;
-    font-size: 1.2em;
-    width: 33.3%;
+    font-size: 75%;
+    width: 33.33%;
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 nav a {
@@ -53,3 +56,9 @@ nav a:hover {
     background-color: #FF8066;
 }
 
+/* The following URL was used to help:  https://www.w3schools.com/html/html_responsive.asp */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 50%;
+  }
+} 
