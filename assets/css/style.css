@@ -1,4 +1,4 @@
-/* Body */
+/* ============================================================ Body */
 
 body {
     margin: 0;
@@ -6,18 +6,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Navigation Bar */
+/* ============================================================ Navigation Bar */
 
 header {
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    
 }
 
 nav ul {
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: #464653;
     border: 5px;
     border-style: solid;
@@ -62,3 +61,28 @@ nav a:hover {
     font-size: 50%;
   }
 } 
+
+
+
+
+
+
+
+/* ============================================================ Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #464653;
+  color: #F3F2F3;
+  text-align: center;
+}
+
+.footer span {
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    width: 20%;
+}
