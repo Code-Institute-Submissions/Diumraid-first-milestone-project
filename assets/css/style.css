@@ -112,9 +112,22 @@ nav a:hover {
 
 /* ============================================================ Skills */
 
-.progress-sizing {
-    margin-left: 10%;
-    margin-right: 10%;
+.styling-progress-bars {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* ============================================================ Hobbies */
+
+.hobbies-style {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6em;
+    border: 5px;
+    border-style: solid;
+    border-color: #FDF7FF;
+    border-radius: 5px;
 }
 
 /* ============================================================ Footer */
