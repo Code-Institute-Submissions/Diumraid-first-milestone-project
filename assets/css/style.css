@@ -7,18 +7,17 @@ body {
     background-color: #FDF7FF;
 }
 
-h3 {
+h2 {
+
     text-align: center;
     border: 5px;
     border-style: solid;
     border-color: #242429;
     border-radius: 5px;
-    margin-top: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5px;
+    margin: 15px 5% 15px 5%;
     background-color: #464653;
     color: #FDF7FF;
+    padding: 5px;
 }
 
 
@@ -94,24 +93,28 @@ nav a:hover {
 
 /* ============================================================ Work & Education */
 
-.div-sizing {
-    border: 5px;
-    border-style: solid;
-    border-color: #242429;
-    border-radius: 5px;
-    width: 25%;
-    height: 90px;
-    float: left;
-    display: inline;
-    margin-left: 5%;
-    /* text-align: center; */
-    /* margin-top: 15px; */
+.button-color {
+    background-color: #464653;
+    color: #FDF7FF;
+    border-color: #FDF7FF;
 }
 
-.div-sizing img {
-    width: 80%;
-    margin: 0 auto;
-    
+.button-color:hover {
+    background-color: #FF8066;
+    color: #464653;
+}
+
+.button {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+/* ============================================================ Skills */
+
+.progress-sizing {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* ============================================================ Footer */
