@@ -106,8 +106,10 @@ nav a:hover {
 
 .button {
     float: left;
-    width: 20%;
-    margin-left: 10%;
+    width: 27.5%;
+    margin-left: 5%;
+    font-size: 70%;
+    text-align: center;
 }
 
 /* ============================================================ Skills */
