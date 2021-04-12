@@ -43,7 +43,7 @@ Below is a link to the wirframe which gives an initial overview of the design pr
     1. If a link is clickable and opens an external webpage it was tested.
     2. If unsuccessful or the link was broken it was ammended.
     3. If successful it was made sure that the link is the correct landing page.
-3. Functionality acriss different devices
+3. Functionality across different devices
     1. Site was tested across multiple devices.
     2. It was tested using the Chrome Developer Tool so that it can give a good overview of the website across multible devices.
     3. The website was found to be responsive across PC, Laptop and Tablet but needs additional styling to be fully ready for mobile devices.
