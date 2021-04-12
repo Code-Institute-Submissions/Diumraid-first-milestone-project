@@ -151,10 +151,7 @@ h1 {
 }
 
 .pictures-in-portfolio {
-    margin-top: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 120px;
 }
 
 /* ============================================================ Contact */
